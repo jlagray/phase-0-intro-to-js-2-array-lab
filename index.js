@@ -38,8 +38,9 @@ function removeFirstCat() {
     return cats.slice[0, length - 1]}
 function removeFirstCat() {
     return cats.slice(1) }
+
 function removeLastCat(name) {
-    const  newCats = cats.slice(0, cats.length - 1); 
+    const  newCats = cats.slice(0, cats.length - 1);
     return newCats;
 }
     
