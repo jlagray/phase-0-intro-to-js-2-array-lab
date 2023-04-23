@@ -39,7 +39,7 @@ function removeFirstCat() {
 function removeFirstCat() {
     return cats.slice(1) }
 function removeLastCat(name) {
-    const  cats = cats.pop(0, cats.length - 1);
-    return cats;
+    const  newCats = cats.slice(0, cats.length - 1); 
+    return newCats;
 }
     
